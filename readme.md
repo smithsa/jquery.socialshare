@@ -16,7 +16,7 @@ Simply import the "jquery.socialshare.js" file to your project after your jQuery
 
 More documentation coming soon.
 
-Instantiate the socailshare object for your elements which will trigger the share
+Instantiate the socialshare object for your elements which will trigger the share
 ```
 var options = {
 	'targetBlank': false, //false is default, share window will be a popup
