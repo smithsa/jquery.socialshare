@@ -48,8 +48,11 @@
 		}
 		return this.each( function() {
 		    $(this).on('click', function(e){
-		    	e.preventDefault();
-
+		    	//if link is clicked prevent redirect
+		    	if($(e.target).closest('a').length){
+		    		e.preventDefault();
+		    	}
+		    	
 		    	//setting default share link url
 		    	var share_url = $(this).attr('data-url');
  				if(typeof share_url == "undefined"){
