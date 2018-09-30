@@ -1,5 +1,5 @@
 # jquery.socialshare
-A jQuery social sharing plugin (facebook, twitter, google+, linkedin, email, and more to come).
+A jQuery social sharing plugin (facebook, twitter, google+, linkedin, and email).
 
 ## Motivation
 A fast way for developers to make custom social share links functional.
